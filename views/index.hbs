@@ -1,9 +1,33 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<script src='/js/raphael-2.1.4.min.js'></script>
+<script src='/js/justgage.js'></script>
 
-<p>You can use these two sample REST API's</p>
 
-<p> /echo?echo=echoback</p>
+<script type="text/javascript" src="//cdn.jsdelivr.net/particle-api-js/5/particle.min.js">
+</script>
 
-<p> /chuck</p>
+<h1>Temp Probe Gauge</h1>
 
+
+<div id="gauge" class="200x160px"></div>
+
+<script>
+    var particle = new Particle();
+    var token = '{{token}}' // get from template js
+    var deviceID = '{{deviceID}}'; // get from template js
+
+    particle.getEventStream({ deviceId: deviceID, name: 'thermocouple0', auth: token }).then(
+            function(stream) {
+                stream.on('thermocouple0', function(data) {
+                    g.refresh(data.data)  // this refreshes the gague.
+                })
+            });
+
+    // Gauge definition.
+    var g = new JustGage({
+        id: "gauge",
+        value: 0,
+        min: 0,
+        max: 100,
+        title: "Temp"
+    });
+</script>
