@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5754577d-41ac-4fe9-8829-56647d2ecd2f" name="Default" comment="Commit 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="5754577d-41ac-4fe9-8829-56647d2ecd2f" name="Default" comment="Commit 2" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -234,6 +231,7 @@
       <workItem from="1527630967484" duration="6167000" />
       <workItem from="1528059329245" duration="10573000" />
       <workItem from="1529185906599" duration="37000" />
+      <workItem from="1529191342459" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Initial committ.">
       <created>1526234142064</created>
@@ -260,15 +258,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26008000" />
+    <option name="totallyTimeSpent" value="26037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="97" width="1400" height="912" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49234137" visible="true" weight="0.24945612" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.7454677" visible="true" weight="0.32828283" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25453228" side_tool="true" visible="true" weight="0.32828283" />
+      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.7447426" visible="true" weight="0.32828283" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25525743" side_tool="true" visible="true" weight="0.32828283" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49891225" weight="0.32842416" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49528643" weight="0.4722222" />
       <window_info id="npm" order="2" side_tool="true" weight="0.32994923" />
